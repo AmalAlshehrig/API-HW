@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .Getdata{
+             display: grid;
+             grid-template-columns: auto auto auto auto ;
+}
+.P {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.P img {
+    height: 45vh;
+}
+@media (max-width:914px){
+    .Getdata{
+             display: grid;
+             grid-template-columns: auto auto ;
+}
+}
+    </style>
+    <title>API HW</title>
+</head>
+<body>
+    <div class="Getdata" id="Getdata">
+    </div>
+    <script src="hw.js"></script>
+</body>
+</html>
